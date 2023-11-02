@@ -37,9 +37,14 @@ Eurostat is the statistical office of the European Union responsible for collect
 <!-- List of work packages ordered sequentially, each pointing to an issue with more details. -->
 
 1. Explore Datasources [#1][i1]
-2. Analyze Data
-3. Report Findings
-4.  Refine Datasources Notebook
-5.  Make Repository Submission-Ready 
+2. Analyze Data [#2][i2]
+3. Report Findings [#3][i3]
+4. Refine Datasources Notebook [#3][i4]
+5. Make Repository Submission-Ready [#4][i5]
 
-[i1]:
+[i1]:https://github.com/ramisyakar/made-template/issues/1
+[i2]:https://github.com/ramisyakar/made-template/issues/2
+[i3]:https://github.com/ramisyakar/made-template/issues/3
+[i4]:https://github.com/ramisyakar/made-template/issues/4
+[i5]:https://github.com/ramisyakar/made-template/issues/5
+
