@@ -41,8 +41,7 @@ df.dropna(inplace=True)
 
 df=df.reset_index().drop("index",axis=1)
 
-df=df.reset_index()
-
+df.Betreiber_Nr=df.Betreiber_Nr.astype(int)
 
 
 db_file = "trainstops.sqlite"
@@ -65,7 +64,7 @@ class TrainStops(Base):
     Laenge=Column(Float)
     Breite=Column(Float)
     Betreiber_Name=Column(String)
-    Betreiber_Nr=Column(Float)
+    Betreiber_Nr=Column(Integer)
 
 # Create the table in the SQLite database
 Base.metadata.create_all(engine)
