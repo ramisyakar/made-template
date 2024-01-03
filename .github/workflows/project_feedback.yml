@@ -4,8 +4,7 @@ on:
   push:
     branches:
       - main
-    paths:
-      - project/**
+
 
 jobs:
   check-pipeline:
@@ -27,6 +26,6 @@ jobs:
       - run: echo Testing phase is starting..
       - name: Run test
         run: |
-          cd project
-          chmod +x tests.sh
-          ./tests.sh
+          cd ./main
+          chmod +x ./main/project/tests.sh
+          ./project/tests.sh
