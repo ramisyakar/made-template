@@ -26,6 +26,4 @@ jobs:
       - run: echo Testing phase is starting..
       - name: Run test
         run: |
-          chmod +x ./project/tests.sh
-          cd ./main
-          ./project/tests.sh
+          chmod +x ./main/project/tests.sh && cd ./main && ./project/tests.sh
