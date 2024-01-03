@@ -1,4 +1,4 @@
-from data_pipeline import run_pipeline
+from .data_pipeline import run_pipeline
 import unittest
 
 class TestDataPipeline(unittest.TestCase):
