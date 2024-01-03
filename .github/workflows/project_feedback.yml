@@ -16,10 +16,10 @@ jobs:
 
       # Installing python
       - run: echo Setting up python..
-      - name: Set up Python 3.10.0
+      - name: Set up Python 3.10.9
         uses: actions/setup-python@v4
         with:
-          python-version: 3.10.0
+          python-version: 3.10.9
 
       # run test pipeline
       - run: echo Testing phase is starting..
