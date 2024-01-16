@@ -12,8 +12,7 @@ Effects of household income level and country purchase power on depression
 ## Description
 
 <!-- Describe your data science project in max. 200 words. Consider writing about why and how you attempt it. -->
-This project aims to investigate the intricate relationship between economic income and mental health outcomes in various European countries. This research is motivated by the need to understand and address mental health disparities in a rapidly changing socioeconomic landscape. 
-To accomplish this, we will gather income data from multiple European nations, and complement this with assessments of mental health outcomes, including depression rates and power of purchase indicators. 
+This project aims to investigate the intricate relationship between economic income and mental health outcomes in various European countries. This research is motivated by the need to understand and address mental health disparities in a rapidly changing socioeconomic landscape. To accomplish this, Eurostat datasets are employed about income data from multiple European nations, and complement this with assessments of mental health outcomes, including depression rates and power of purchase indicators.
 ## Datasources
 
 <!-- Describe each datasources you plan to use in a section. Use the prefic "DatasourceX" where X is the id of the datasource. -->
