@@ -56,7 +56,7 @@ pipeline bus_stop {
         constraints: [coordsConstraint];
     }
     block database oftype SQLiteLoader {
-        table: "busStops";
-        file: "./busStops.sqlite";
+        table: "stops";
+        file: "./gtfs.sqlite";
     }
 }
